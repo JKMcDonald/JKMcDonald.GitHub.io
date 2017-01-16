@@ -3,27 +3,59 @@
 <head>
 	<title>New York Giants</title>
 </head>
+<style>
+body { background-color:navy; }
+</style> 
 <body>
-<h1>New York Giants</h1>
+<h1 align="center">New York Giants</h1>
 <nav>
-<ul>
-   <li> <a href="SNL.html">Roster</a> </li>
-   <li> <a href="CNN.html">Schedule 2017</a> </li>
-   <li> <a href="Oprah.html">Gallery</a> </li>
+<ul align="center">
+   <li> <a href="roster.html">Roster</a> </li>
+   <li> <a href="schedule.html">Schedule 2017</a> </li>
+   <li> <a href="gallery.html">Gallery</a> </li>
 </ul>
 </nav>
-<p> New York's Team - The Giants
+<p align="center">
 <img src="giants_gloves.jpg" alt="Giants">
 </p>
-<form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-</form>
-<nav>
-  <a href="README.md">README</a>
- </nav>
+<form name="Receive Emails" action="form.html" method="post">
+  <fieldset align="center">
+    <div>
+      <label>Full name:</label>
+      <input type="text" name="users name">
+    </div>
 
+     <div>
+      <label>City, State</label>
+      <input type="text" name="Location">
+    </div>
+  </fieldset>
+
+  <fieldset align="center">
+    <div>
+      <label>I would like to receive:</label>
+      <select name="email">
+        <option value="text">Player news</option>
+        <option value="text">Trades</option>
+        <option value="text">Gamecast</option>
+      </select>
+    </div>
+
+    <div>    
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree">
+     I agree to receive emails from Kyle's-Giants.
+    </div>
+  </fieldset>
+  
+  <button align="center" type="submit">Get Email!</button>
+</form>
+<footer align="center">
+  <a href="README.md">README</a>
+ </footer>>
 </body>
 </html>
