@@ -1,0 +1,57 @@
+#body { 
+	background-color:navy;
+}
+h1 {
+	margin: auto;
+}
+
+title {
+	margin: auto;
+	font-family: Arial black;
+	/* unvisited link */
+}
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+} 
+
+#header { 
+	font: times;
+          margin: 10px;
+          padding: 10px; 
+      }
+p {
+	margin: 5%;
+	padding: 5% 5% 5% 5%;
+	border: 2px;
+}
+footer { 
+margin: auto;
+ }
+
+ul {
+	margin: auto;
+	font-family: arial black;
+}
+
+.fieldset {
+	margin: auto;
+}
+
+footer {
+	margin: auto;
+}

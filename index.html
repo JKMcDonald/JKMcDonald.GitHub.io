@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>New York Giants</title>
-</head>
-<style>
-body { background-color:navy; }
-</style> 
-<body>
-<h1 align="center">New York Giants</h1>
+<link rel="stylesheet" href="style.css" type="text/css">
+  <title>New York Giants</title>
+<body id="body">
+<h1 id="header"><a href="http://www.giants.com">New York Giants</a></h1>
 <nav>
-<ul align="center">
+<ul>
    <li> <a href="roster.html">Roster</a> </li>
    <li> <a href="schedule.html">Schedule 2017</a> </li>
    <li> <a href="gallery.html">Gallery</a> </li>
 </ul>
 </nav>
-<p align="center">
+<p>
 <img src="giants_gloves.jpg" alt="Giants">
 </p>
 <form name="Receive Emails" action="form.html" method="post">
-  <fieldset align="center">
+  <fieldset class="fieldset">
     <div>
       <label>Full name:</label>
       <input type="text" name="users name">
@@ -31,8 +27,8 @@ body { background-color:navy; }
     </div>
   </fieldset>
 
-  <fieldset align="center">
-    <div>
+  <fieldset class="fieldset">
+    <div id="choice">
       <label>I would like to receive:</label>
       <select name="email">
         <option value="text">Player news</option>
@@ -41,20 +37,20 @@ body { background-color:navy; }
       </select>
     </div>
 
-    <div>    
+    <div id="email">    
       <label>Email:</label>
       <input type="email" name="email">
     </div>
 
-    <div>
+    <div id="agree">
       <input type="checkbox" name="cb-agree" value="agree">
      I agree to receive emails from Kyle's-Giants.
     </div>
   </fieldset>
   
-  <button align="center" type="submit">Get Email!</button>
+  <button type="submit">Get Email!</button>
 </form>
-<footer align="center">
+<footer>
   <a href="README.md">README</a>
  </footer>>
 </body>
